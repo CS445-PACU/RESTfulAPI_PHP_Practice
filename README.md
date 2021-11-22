@@ -1,8 +1,14 @@
 #  RESTfulAPI_PHP_Practice
 
-Access [OpenLibrary.org](https://openlibrary.org/developers/api) to search for books.
+For this activity, you will build PHP pages to query the OpenLibray.org [OpenLibrary.org](https://openlibrary.org/developers/api) API to display information about the selected book to the user.  The file chooseBook.html is written for you and will allow the user to search by title or by ISBN.
 
-Later, access [data.oregon.gov](https://dev.socrata.com/foundry/data.oregon.gov/hqhe-shsc) to find social media sites run by the State of Oregon.
+To search the [Book API](https://openlibrary.org/dev/docs/api/books) with an ISBN use a URL like: https://openlibrary.org/api/books?bibkeys=ISBN:9780062073570&format=json&jscmd=data
+
+To search the [Search API](https://openlibrary.org/dev/docs/api/search) with a title use a URL like: https://openlibrary.org/search.json?title=Contact
+
+You can add more data for your users  querying the [Author API](https://openlibrary.org/dev/docs/api/authors)
+
+For further practice, you can implement getORSocMediaSite.php to allow the user to search [data.oregon.gov](https://dev.socrata.com/foundry/data.oregon.gov/hqhe-shsc) to find social media sites run by the State of Oregon.
 
 ## Files
 
