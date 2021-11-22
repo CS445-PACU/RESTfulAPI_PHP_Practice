@@ -8,6 +8,12 @@ To search the [Search API](https://openlibrary.org/dev/docs/api/search) with a t
 
 You can add more data for your users  querying the [Author API](https://openlibrary.org/dev/docs/api/authors)
 
+To preview the data returned by querying a URL, you can view that URL in FireFox or access the URL at the command line:
+
+```
+curl 'https://openlibrary.org/api/books?bibkeys=ISBN:0201558025&format=json&jscmd=data' | python -m json.tool | less
+```
+
 For further practice, you can implement getORSocMediaSite.php to allow the user to search [data.oregon.gov](https://dev.socrata.com/foundry/data.oregon.gov/hqhe-shsc) to find social media sites run by the State of Oregon.
 
 ## Files
