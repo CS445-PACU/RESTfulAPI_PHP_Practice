@@ -9,7 +9,7 @@
 
 all: copy
 
-PROJ= RESTfulAPI_PHP_Practice
+PROJ=RESTfulAPI_PHP_Practice
 
 copy: 
 	echo ${USER}
