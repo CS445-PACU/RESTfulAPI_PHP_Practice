@@ -36,10 +36,10 @@ In the terminal, type
 make copy
 ```
 
-This will copy your PHP code to /srv/www/htdocs/php/PUNETID/ RESTfulAPI_PHP_Practice
+This will copy your PHP code to /srv/www/htdocs/php/PUNETID/RESTfulAPI_PHP_Practice
 
 You can open this website in your VM via:
 
-http://localhost/php/PUNETID/ RESTfulAPI_PHP_Practice/
+http://localhost/php/PUNETID/RESTfulAPI_PHP_Practice/
 
 (hint: you can edit this README file to change PUNETID to your actual PUNETID so you can use the link above.)
