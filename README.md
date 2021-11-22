@@ -1,6 +1,6 @@
 #  RESTfulAPI_PHP_Practice
 
-For this activity, you will build PHP pages to query the OpenLibray.org [OpenLibrary.org](https://openlibrary.org/developers/api) API to display information about the selected book to the user.  The file chooseBook.html is written for you and will allow the user to search by title or by ISBN.
+For this activity, you will build PHP pages to query the [OpenLibrary.org](https://openlibrary.org/developers/api) API to display information about the selected book to the user.  The file chooseBook.html is written for you and will allow the user to search by title or by ISBN.
 
 To search the [Book API](https://openlibrary.org/dev/docs/api/books) with an ISBN use a URL like: https://openlibrary.org/api/books?bibkeys=ISBN:9780062073570&format=json&jscmd=data
 
